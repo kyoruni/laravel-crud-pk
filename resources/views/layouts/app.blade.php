@@ -8,8 +8,13 @@
         <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
     </head>
     <body>
-        <button class="btn btn-primary">aaa</button>
-        @yield('content')
+        <div class="container-fluid bg-info">
+            <div class="row">
+                <div class="col-10 mx-auto bg-success">
+                    @yield('content')
+                </div>
+            </div>
+        </div>
         <script src="{{ asset('/js/app.js') }}"></script>
     </body>
 </html>

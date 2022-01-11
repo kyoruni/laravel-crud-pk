@@ -1,2 +1,4 @@
 @extends('layouts.app')
-<button class="btn btn-primary">types@index</button>
+@section('content')
+    <h2>types@index</h2>
+@endsection
