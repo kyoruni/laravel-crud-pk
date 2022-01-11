@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::resource('types', 'TypeController');
+Route::resource('pokemons', 'PokemonController');
