@@ -10,6 +10,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
 
         <!-- Styles -->
+        <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+        <script src="{{ asset('/js/app.js') }}"></script>
         <style>
             html, body {
                 background-color: #fff;
@@ -64,6 +66,7 @@
         </style>
     </head>
     <body>
+        <button class="btn btn-primary">aaa</button>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
